@@ -1,0 +1,35 @@
+{
+    "name": "blueworld",
+    "displayName": "BlueWorld",
+    "description": "A VS Code Theme in blue",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "publisher": "koehler-welt.de",
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color":"#0C1016",
+        "theme":"dark"
+    },
+    "bugs": {
+        "url":""
+    },
+    "repository": {
+        "type":"git",
+        "url":""
+    },
+    "icon": "icon.png",
+    "keywords": ["Blue World"],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blue World",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blue World-color-theme.json"
+            }
+        ]
+    }
+}
